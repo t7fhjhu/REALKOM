@@ -234,7 +234,7 @@ ul.custom-list li::before {
     font-weight: 900;
     position: absolute; 
     left: 0;
-    color: green;  /* Изменили цвет на зеленый */
+    color: green;  /* Ð˜Ð·Ð¼ÐµÐ½Ð¸Ð»Ð¸ Ñ†Ð²ÐµÑ‚ Ð½Ð° Ð·ÐµÐ»ÐµÐ½Ñ‹Ð¹ */
 }
 
 
@@ -295,4 +295,35 @@ ul.custom-list li::before {
 .footer-email {
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 767px) {
+    header {
+        max-width: 450px;
+    }
+    
+    .logo {
+        width: 320px;
+        height: 70px;
+        padding-right: 20px; /* Уменьшил отступ справа */
+        padding-top:10px; /* Уменьшил отступ сверху */
+    }
+    
+    .language-switcher {
+        padding: 0;
+        transform: translateX(10px); /* Уменьшил смещение по X */
+        margin-top: 5px;   /* Уменьшил отступ сверху */
+        position: absolute;
+        padding-left:550px;
+    }
+    .item .content {
+        position: absolute;
+        bottom: -15%;
+        left:170px;
+        width: auto;
+    }
+    .ser-wrpapper {
+        margin-top: 50px;
+    }
+    
 }
