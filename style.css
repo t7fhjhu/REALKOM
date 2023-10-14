@@ -314,8 +314,8 @@ ul.custom-list li::before {
         }
     
         .logo {
-            width: 175px;  
-            height: 41px;  
+            width: 290px;  
+            height: 70px;  
             padding-right: 0;
             padding-top: 10px;
         }
@@ -347,4 +347,70 @@ ul.custom-list li::before {
     .about-us, .services {
         width: 100%; 
     }
+    .footer-container {
+        display: grid;
+        grid-template-columns: 300px;
+        justify-content: center;
+        grid-gap: 20px;
+        padding-left: 100px;
+    }
 }
+        @media (max-width: 550px) {
+            header {
+                flex-direction: column;
+                align-items: center;
+                margin-top: 5px;
+                padding: 5px;
+            }
+        
+            .header-wraper {
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+            }
+        
+            .logo {
+                width: 210px;  
+                height: 50px;  
+                padding-right: 0;
+                padding-top: 5px;
+            }
+        
+            .language-switcher {
+                flex-direction: row;
+                transform: none;
+                margin-top: 10px;
+                padding-bottom: 0;
+                padding-right: 0; /* Убираем правый padding */
+            }
+            .language-switcher button {
+                font-size: 12px; /* уменьшаем размер шрифта */
+                padding: 5px 10px; /* уменьшаем внутренние отступы */
+            }
+            .container{
+                margin-top: 230px;
+                width:300px;           
+                height:300px; 
+            }
+            #services {
+                padding-top: 100px;
+            }
+        .item .content {
+            position: absolute;
+            bottom: -25%;
+            left:100px;
+            width: auto;
+        }
+        .ser-wrpapper {
+            margin-top: 70px;
+        }
+        .footer-container {
+            display: grid;
+            grid-template-columns: 300px;
+            justify-content: center;
+            grid-gap: 20px;
+            padding-left: 110px;
+        }
+    }
+        
+    
