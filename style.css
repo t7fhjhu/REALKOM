@@ -330,7 +330,7 @@ ul.custom-list li::before {
         .container{
             margin-top: 230px;
             width:400px;           
-            height:400px;
+            height:400px; 
         }
         #services {
             padding-top: 100px;
@@ -344,5 +344,7 @@ ul.custom-list li::before {
     .ser-wrpapper {
         margin-top: 50px;
     }
-    
+    .about-us, .services {
+        width: 100%; 
+    }
 }
