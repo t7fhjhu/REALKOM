@@ -234,7 +234,7 @@ ul.custom-list li::before {
     font-weight: 900;
     position: absolute; 
     left: 0;
-    color: green;  /* Ð˜Ð·Ð¼ÐµÐ½Ð¸Ð»Ð¸ Ñ†Ð²ÐµÑ‚ Ð½Ð° Ð·ÐµÐ»ÐµÐ½Ñ‹Ð¹ */
+    color: green;  
 }
 
 
@@ -300,6 +300,7 @@ ul.custom-list li::before {
     @media (max-width: 650px) {
         body {
             width:100%;
+            margin: 0;
         }
         header {
             flex-direction: column;
@@ -331,6 +332,7 @@ ul.custom-list li::before {
             margin-top: 230px;
             width:400px;           
             height:400px; 
+            margin-left: 40px;
         }
         #services {
             padding-top: 100px;
@@ -338,7 +340,7 @@ ul.custom-list li::before {
     .item .content {
         position: absolute;
         bottom: -22%;
-        left:100px;
+        left:70px;
         width: auto;
     }
     .ser-wrpapper {
@@ -356,6 +358,9 @@ ul.custom-list li::before {
     }
 }
         @media (max-width: 480px) {
+            body {
+                margin:0;
+            }
             header {
                 flex-direction: column;
                 align-items: center;
@@ -381,16 +386,17 @@ ul.custom-list li::before {
                 transform: none;
                 margin-top: 10px;
                 padding-bottom: 0;
-                padding-right: 0; /* Убираем правый padding */
+                padding-right: 0; 
             }
             .language-switcher button {
-                font-size: 12px; /* уменьшаем размер шрифта */
-                padding: 5px 10px; /* уменьшаем внутренние отступы */
+                font-size: 12px; 
+                padding: 5px 10px; 
             }
             .container{
                 margin-top: 230px;
                 width:300px;           
                 height:300px; 
+                margin-left: 40px;
             }
             #services {
                 padding-top: 100px;
@@ -412,5 +418,3 @@ ul.custom-list li::before {
             padding-left: 110px;
         }
     }
-        
-    
