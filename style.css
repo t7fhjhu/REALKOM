@@ -324,10 +324,18 @@ ul.custom-list li::before {
             padding-bottom: 0;
             padding-right: 30px;
         }
+        .container{
+            margin-top: 230px;
+            width:400px;           
+            height:400px;
+        }
+        #services {
+            padding-top: 100px;
+        }
     .item .content {
         position: absolute;
-        bottom: -15%;
-        left:170px;
+        bottom: -22%;
+        left:100px;
         width: auto;
     }
     .ser-wrpapper {
