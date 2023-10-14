@@ -375,8 +375,8 @@ ul.custom-list li::before {
             }
         
             .logo {
-                width: 210px;  
-                height: 50px;  
+                width: 310px;  
+                height: 75px;  
                 padding-right: 0;
                 padding-top: 5px;
             }
@@ -386,25 +386,27 @@ ul.custom-list li::before {
                 transform: none;
                 margin-top: 10px;
                 padding-bottom: 0;
-                padding-right: 0; 
+                padding-right: 0;
+                margin-top: 10px;
+                margin-right: 10px;
             }
             .language-switcher button {
-                font-size: 12px; 
+                font-size: 9px; 
                 padding: 5px 10px; 
             }
             .container{
                 margin-top: 230px;
                 width:300px;           
                 height:300px; 
-                margin-left: 40px;
+                margin-left: 10px;
             }
             #services {
-                padding-top: 100px;
+                padding-top: 140px;
             }
         .item .content {
             position: absolute;
             bottom: -25%;
-            left:100px;
+            left: 50px;
             width: auto;
         }
         .ser-wrpapper {
