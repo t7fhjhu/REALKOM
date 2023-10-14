@@ -297,7 +297,7 @@ ul.custom-list li::before {
     flex-direction: column;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
     header {
         max-width: 450px;
     }
