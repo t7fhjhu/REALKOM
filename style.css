@@ -298,6 +298,9 @@ ul.custom-list li::before {
 }
 
     @media (max-width: 768px) {
+        body {
+            width:100%;
+        }
         header {
             flex-direction: column;
             align-items: center;
@@ -311,8 +314,8 @@ ul.custom-list li::before {
         }
     
         .logo {
-            width: 294px;  
-            height: 70px;  
+            width: 175px;  
+            height: 41px;  
             padding-right: 0;
             padding-top: 10px;
         }
