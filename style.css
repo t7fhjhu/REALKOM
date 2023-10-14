@@ -297,7 +297,7 @@ ul.custom-list li::before {
     flex-direction: column;
 }
 
-    @media (max-width: 768px) {
+    @media (max-width: 650px) {
         body {
             width:100%;
         }
@@ -355,7 +355,7 @@ ul.custom-list li::before {
         padding-left: 100px;
     }
 }
-        @media (max-width: 550px) {
+        @media (max-width: 480px) {
             header {
                 flex-direction: column;
                 align-items: center;
